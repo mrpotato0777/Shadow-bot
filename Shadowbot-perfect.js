@@ -3,7 +3,7 @@ const { default: makeWASocket, useSingleFileAuthState, DisconnectReason, fetchLa
 const { state, saveState } = useSingleFileAuthState('./session.json')
 const fs = require('fs')
 
-const OWNER = '+96171378430' // رقمك كمالك البوت
+const OWNER = '96171378430' // رقمك كمالك البوت
 let eliteUsers = [OWNER]
 
 let groupSettings = {}
